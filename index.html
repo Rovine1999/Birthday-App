@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Birthday App</title>
 </head>
+
 <body>
-    
-<script src="/js/script.js"></script>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4><b><u>Male</u></b></h4>
+                    <ol>
+                        <li>Sunday:Kwasi</Sunday:Kwasi>
+                        </li>
+                        <li>Monday:Kwadwo</li>
+                        <li>Tuesday:Kwabena</li>
+                        <li>Wednesday:Kwako</li>
+                        <li>Thursday:Yaw</li>
+                        <li>Friday:Kofi</li>
+                        <li>Saturday:Kwame</li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                    <h4><b><u>Female</u></b></h4>
+                    <ol>
+                        <li>Sunday:Akosua</li>
+                        <li>Monday:Adwoa</li>
+                        <li>Tuesday:Abenaa</li>
+                        <li>Wednesday:Akua</li>
+                        <li>Thursday:Yaa</li>
+                        <li>Friday:Afua</li>
+                        <li>Saturday:Ama</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <form>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault01"></label>
+                <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault02">Year</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault02">Month</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault02">Day</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault03"></label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationDefault04">Century</label>
+                <select class="custom-select" id="validationDefault04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>15<sup>th</sup</option>
+                    <option>16<sup>th</sup></option>
+                    <option>17<sup>th</sup></option>
+                    <option>18<sup>th</sup></option>
+                    <option>19<sup>th</sup></option>
+                    <option>20<sup>th</sup></option>
+                    <option>21<sup>th</sup></option>
+                    <option>22<sup>th</sup></option>
+                    <option>23<sup>th</sup></option>
+                </select>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationDefault05">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    <!-- Agree to terms and conditions -->
+                </label>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
 </body>
+
 </html>
