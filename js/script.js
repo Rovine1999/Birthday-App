@@ -27,4 +27,21 @@ function day (cc,yy,mm,dd){
     alert(males[1]);
   } else if (gender == "male" && result == 2) {
       alert(males[2]);
+  } else if (gender == "male" && result == 3) {
+      alert(males[3]);
+  } else if (gender == "male" && result == 4) {
+      alert(males[4]);
+  } else if (gender == "male" && result == 5) {
+      alert(males[5]);
+  } else if (gender == "male" && result == 6) {
+      alert(males[6]);
+  }
+  else if (gender == "female" && result == 0) {
+      alert(females[0]);
+  }
+  else if (gender == "female" && result == 1) {
+      alert(females[1]);
+  }
+  else if (gender == "female" && result == 2) {
+      alert(females)
   }
