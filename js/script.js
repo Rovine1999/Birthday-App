@@ -1,0 +1,30 @@
+function day (cc,yy,mm,dd){
+    return ((((cc/19)+1*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)+1
+  }
+  function  gd() {
+  var cc = (document.getElementById("Id1").value);
+  var yy = (document.getElementById("Id2").value);
+  var mm = (document.getElementById("Id3").value);
+  var dd = (document.getElementById("Id4").value);
+  var gender=(document.getElementById("Id5").value);
+  var result=day(cc,yy,mm,dd).toFixed();
+  const males = ["Kwasi", "kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  const females = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  if (gender == "male" && result == 0) {
+      alert(males[0]);
+    }
+  var cc = parseInt(prompt("Enter Year"));
+  var yy = parseInt(prompt("Months"));
+  var mm = parseInt(prompt("days"));
+  var dd = parseInt(prompt("Enter the date of birth"));
+  var gender= prompt("your gender")
+  var result=day(cc,yy,mm,dd).toFixed();
+  const males = ["Kwasi", "kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  const females = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  if (gender == "male" && result == 0) {
+    alert(males[0]);
+  } else if (gender == "male" && result == 1) {
+    alert(males[1]);
+  } else if (gender == "male" && result == 2) {
+      alert(males[2]);
+  }
