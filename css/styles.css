@@ -4,6 +4,18 @@ h1 {
     font-family: 'Lucida sans';
 }
 
+h1:hover {
+    color: red;
+}
+
 .card {
     color: brown;
+    border-color: chartreuse;
+    width: 50%;
+    margin-left: 24.6%;
+}
+
+.btn-primary:hover {
+   color: red; 
+   background-color: bisque;
 }
