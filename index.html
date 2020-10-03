@@ -4,13 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <title>Birthday App</title>
 </head>
 
 <body>
     <h1><u><b>AKAN-NAMES WEBSITE</b></u></h1>
+    <div class="container">
+        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the
+            order in which they were born. These "day names" have further meanings concerning the soul and character of
+            the person. This naming tradition is shared throughout West Africa.<br /> Many of the leaders of enslaved
+            people’s rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and
+            Quamina or Kwame/Kwamina.
+
+            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
+            Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations
+            Secretary-General Kofi Annan.
+
+            In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi are
+            as follows.
+        </p>
+    </div>
     <div class="container">
         <div class="card">
             <div class="row">
@@ -40,18 +55,22 @@
                 </div>
             </div>
         </div>
-    
-    
-    <form>
+        <!-- <form name="form" onsubmit="return gd()" method="POST">
         <div class="form-row">
             <div class="col-md-6 mb-3">
-                <label for="validationDefault01">Name</label>
-                <input type="text" class="form-control" id="validationDefault01" value="" required>
+                <label for="validationDefault01">Century</label>
+                <select class="custom-select" id="Id1" required>
+                    <option selected disabled value="">Select</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    </select>
             </div>
             <div class="col-md-6 mb-3">
-               
                     <label for="validationDefault02">Year</label>
-                    <select class="custom-select" id="validationDefault04" required>
+                    <select class="custom-select" id="Id2" required>
                         <option selected disabled value="">Select</option>
                         <option>1990</option>
                         <option>1991</option>
@@ -98,25 +117,25 @@
             </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault02">Month</label>
-                    <select class="custom-select" id="validationDefault04" required>
+                    <select class="custom-select" id="Id3" required>
                         <option selected disabled value="">Select</option>
-                        <option>January</option>
-                        <option>February</option>
-                        <option>March</option>
-                        <option>April</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
-                        <option>September</option>
-                        <option>October</option>
-                        <option>November</option>
-                        <option>December</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
                     </select>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault02">Date</label>
-                    <select class="custom-select" id="validationDefault04" required>
+                    <select class="custom-select" id="Id4" required>
                         <option selected disabled value="">Select</option>
                         <option>1</option>
                         <option>2</option>
@@ -153,16 +172,40 @@
                 </div>
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault02">Gender</label>
-                        <select class="custom-select" id="validationDefault04" required>
+                        <select class="custom-select" id="Id5" required>
                             <option selected disabled value="">Select</option>
                             <option>Male</option>
                             <option>Female</option>
                         </select>
                         <button class="btn btn-primary" type="submit">Submit</button>
                     </div>
-    </form>
-    <script src="js/script.js"></script>
-</div>
+    </form> -->
+        <form name="form" onsubmit="return gd()" method="POST">
+            <div class="form-group">
+                <label for="Centuary">Centuary</label>
+                <input type="number" class="form-control" id="Id1">
+
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="number" class="form-control" id="Id2">
+            </div>
+            <div class="form-group">
+                <label for="month">Month</label>
+                <input type="number" class="form-control" id="Id3">
+            </div>
+            <div class="form-group">
+                <label for="day">Day</label>
+                <input type="number" class="form-control" id="Id4">
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" name="gender"  id="Id5">Male
+                <input type="radio" name="gender" id="Id5">Female
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <script src="js/script.js"></script>
+    </div>
 </body>
 
 </html>
