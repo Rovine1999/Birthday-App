@@ -19,3 +19,7 @@ h1:hover {
    color: red; 
    background-color: bisque;
 }
+
+.container p:hover {
+    color: coral;
+}
