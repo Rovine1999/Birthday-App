@@ -1,8 +1,8 @@
 {Application Name}
-#### {Application that accepts the user date of birth and excutes the the name of the user he/she was born according days of the week}, {01/10/2020}
+#### {Rovine Sydney Wanjala}, {01/10/2020}
 #### By **{Rovine Wanjala}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{Application that accepts the user date of birth and excutes the the name of the user he/she was born according days of the week}
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
